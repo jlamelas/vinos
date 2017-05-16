@@ -23,11 +23,11 @@
               <h3>Notas de cata: </h3>
               <div class="form-group">
                 <label for="vista">Vista: </label>
-                <input type="text" id="vista" class="form-control" v-model="nuevoVino.cata.vista">
+                <input type="textarea" id="vista" class="form-control" v-model="nuevoVino.cata.vista">
                 <label for="nariz">Nariz: </label>
-                <input type="text" id="nariz" class="form-control" v-model="nuevoVino.cata.nariz">
+                <input type="textarea" id="nariz" class="form-control" v-model="nuevoVino.cata.nariz">
                 <label for="boca">Boca: </label>
-                <input type="text" id="boca" class="form-control" v-model="nuevoVino.cata.boca">
+                <input type="textarea" id="boca" class="form-control" v-model="nuevoVino.cata.boca">
               </div><br>
               <h3>Proveedor: </h3>
               <div class="form-group">
